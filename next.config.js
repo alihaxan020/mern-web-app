@@ -2,6 +2,8 @@
 * @type {import('next').NextConfig}
 */
 const nextConfig = {
+  trailingSlash: true,
+  output: 'export',
   images: {
     loader: 'akamai',
     path: '',
@@ -9,4 +11,4 @@ const nextConfig = {
   // assetPrefix: './',
 };
 
-module.exports =  nextConfig;
+module.exports = nextConfig;
